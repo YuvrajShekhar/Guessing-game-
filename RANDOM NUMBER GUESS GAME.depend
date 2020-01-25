@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1579947756 source:c:\users\syuvr\onedrive\documents\random number guess game\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
