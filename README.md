@@ -1,19 +1,14 @@
 # Guessing-game-
 A simple number guessing game, where one has to guess the random number generated within 5 tries to win the game. 
 
+    //code starts here
+    
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include<time.h> // random number generator seed
 
-
-
-
-
-// code starts here
-
-#include <stdio.h>
-#include <stdlib.h>
-#include<time.h> // random number generator seed
-
-int main()
-{
+    int main()
+    {
     int randomNumber = 0 ;
     int Number_guessed = 0 ;
     int number_of_guess;
@@ -50,5 +45,4 @@ int main()
     printf(" sorry you have used all your 5 tries and have lost this game");
     label:
     return 0;
-
-}
+    }
