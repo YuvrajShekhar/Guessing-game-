@@ -16,18 +16,16 @@ int main()
     printf("\n Please guess a number between 0 to 15");
 
     for(number_of_guess=5;number_of_guess>0;number_of_guess--)
-    {
+    {    
          printf("\n you have %d tr%s left to guess the number ",number_of_guess,number_of_guess==1?"y":"ies");
          printf("\n Enter your number: \n ");
          scanf("%d",&Number_guessed);
 
      if(Number_guessed==randomNumber)
-    {
-
+    {   
          printf(" You guessed it right.\n Congratulations");
          goto label;
     }
-
     else if (Number_guessed<0 || Number_guessed>15)
         printf(" Please Enter a Number between 0 and 20 ");
     else if (Number_guessed<randomNumber)
@@ -38,5 +36,4 @@ int main()
     printf(" sorry you have used all your 5 tries and have lost this game");
     label:
     return 0;
-
 }
