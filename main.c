@@ -4,9 +4,7 @@
 
 int main()
 {
-    int randomNumber = 0 ;
-    int Number_guessed = 0 ;
-    int number_of_guess;
+    int randomNumber = 0 , Number_guessed = 0 , number_of_guess;
     time_t t ;
 
     //intializing random number
