@@ -12,8 +12,7 @@ int main()
     // calling the random number
     randomNumber = rand() %15;
 
-    printf("\n welcome to the game");
-    printf("\n Please guess a number between 0 to 15");
+    printf("\n welcome to the game \n Please guess a number between 0 to 15");
 
     for(number_of_guess=5;number_of_guess>0;number_of_guess--)
     {    
